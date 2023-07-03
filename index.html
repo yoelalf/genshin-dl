@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="./styles.css"/>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    </head>
-    <body>
-       <header>
-           <h1>Genshin Impact Manual Downloader</h1>
-           <section>
-               Pre-Install update
-           </section>
-           <fieldset><legend>Update from <span id="latest-before-predl"></span> to <span id="latest-after-predl"></span></legend>
-            <div class="game-files">
-                <span>Game Files</span>
-                <a href="https://www.google.com" id="link-predl">
-                    <input type="button" class="button" value='Download' />
-                </a>
-            </div>
-            
-        </fieldset>
-           
-       </header>
-       <main></main>
-       <footer></footer> 
-       <script src="./jquery.js"></script>
-    </body>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="UTF-8"/>
+      <link rel="stylesheet" href="./styles.css"/>
+      <title>Genshin Impact Downloader</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   </head>
+   <body>
+      <header>
+        <h1 id="title">Genshin Impact Manual Downloader</h1>
+      </header>
+      <main>
+         
+         <section class="section">
+            <h2>Pre-Installation update</h2>
+            <fieldset>
+               <legend>Update from <span id="latest-before-predl"></span> to <span id="latest-after-predl"></span></legend>
+               <div class="game-files">
+                  <span>Game Files</span>
+                  <a href="" id="link-predl">
+                  <input type="button" class="button" value='Download' />
+                  </a>
+               </div>
+               <div class="divider"></div>
+               <div class="voice-over-pack">
+                  <span id="voice-over-title">Voice Over Pack</span>
+                  <a href="" id="link-predl-en">
+                  <input type="button" class="button-voice" value='English - Download' />
+                  </a>
+                  <a href="" id="link-predl-jp">
+                  <input type="button" class="button-voice" value='Japanese - Download' />
+                  </a>
+               </div>
+            </fieldset>
+         </section>
+      </main>
+      <footer></footer>
+      <script src="./jquery.js"></script>
+   </body>
 </html>
