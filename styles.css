@@ -19,7 +19,7 @@ h2{
     flex-direction: column;
     margin: 0 auto;
 }
-.button-voice{
+.button-dl{
     display: flex;
     margin: 10px auto;
     justify-content:center;
@@ -39,4 +39,6 @@ legend{
 .section{
     padding: 15px;
     border:5px solid black;
+    max-width: 400px;
+    margin: 0 auto;
 }
