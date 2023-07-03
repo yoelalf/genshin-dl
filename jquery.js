@@ -12,5 +12,5 @@ $(document).ready(function() {
 SetHTMLPreInstall = (value) =>{
     document.getElementById('latest-before-predl').innerHTML = value.diffs[0].version
     document.getElementById('latest-after-predl').innerHTML = value.latest.version
-    document.getElementById('link-predl').setAttribute("href", value.latest.version)
+    document.getElementById('link-predl').setAttribute("href", value.diffs[0].path)
 }
